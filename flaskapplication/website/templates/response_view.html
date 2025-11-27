@@ -1,4 +1,3 @@
-<!--- Task 4, 7, 8: Add your code here -->
 {% extends "base.html" %} {% block title %}AI Chatbot with Gemini{% endblock %}
 {% block content %}
 <div
@@ -25,16 +24,20 @@
 
 <div class="container">
   <h1 class="text-center my-4">AI BOT</h1>
-  <div class="chat-history">
-    <ul class="m-b-0">
-      {% for result in results %}
-      <li class="clearfix">
-        <div class="message {{ result.messagetype }}">
-          {{ result.message |safe}}
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
+
+  <!-- 👇 Added .chat wrapper so CSS selectors match -->
+  <div class="chat">
+    <div class="chat-history">
+      <ul class="m-b-0">
+        {% for result in results %}
+        <li class="clearfix">
+          <div class="message {{ result.messagetype }}">
+            {{ result.message | safe }}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </div>
 
