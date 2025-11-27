@@ -1,1 +1,24 @@
-<!--- Task 4, 7 : Add your code here -->
+<!--- Task 4, 7, 8: Add your code here -->
+{% extends "base.html" %} {% block title %}AI Chatbot with Gemini{% endblock %}
+{% block content %}
+<div
+  class="flex-column d-flex align-items-center justify-content-center"
+  style="height: 350px"
+>
+  <h1>What are you looking for?</h1>
+  <form
+    class="form-group d-flex align-items-center w-100"
+    method="GET"
+    style="max-width: 700px"
+  >
+    <input
+      class="form-control mr-2"
+      type="search"
+      name="query"
+      placeholder="Enter Here"
+      aria-label="Search"
+      style="flex: 1"
+    />
+  </form>
+</div>
+{% endblock %}
