@@ -1,9 +1,6 @@
 # Python virtual environment
 .venv/
 
-# Env files (secrets)
-flaskapplication/.env
-
 # Python build artifacts
 __pycache__/
 *.pyc
