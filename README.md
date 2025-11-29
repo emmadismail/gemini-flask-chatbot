@@ -17,6 +17,28 @@ This project integrates Gemini responses into a clean web UI, includes a simple 
 
 ---
 
+## 📸 Project Screenshots
+
+### 🔹 Home Screen
+
+![Home Screen](screenshots/home-page.png)
+
+![Hamburger Menu](screenshots/hamburger-menu.png)
+
+![Input Field](screenshots/input-field.png)
+
+![Loading Spinner](screenshots/loading-spinner.png)
+
+### 🔹 Chatbot in Action
+
+![Chatbot Demo](screenshots/chat-response.png)
+
+### 🔹 Question History View
+
+![History View](screenshots/history-view.png)
+
+---
+
 ## 📁 Project Structure
 
 ```
